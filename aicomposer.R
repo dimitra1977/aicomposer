@@ -4,6 +4,7 @@
 ##    Date          Author                Comments
 ##    ~~~~          ~~~~~~                ~~~~~~~~
 ## 06/29/2021    Dipankar Mitra        Initial version created.
+## 07/07/2021    Dipankar Mitra        Added functionality for Maj scales.
 ################################################################################
 
 
@@ -36,7 +37,7 @@ generate_chords <- function(num_measures)
     }
     ## Sample randomly from 1st to 7th chords
     #set.seed(8)
-    temp <- sample(1:7, size = num_measures, replace = TRUE) 
+    temp <- sample(1:7, size = (num_measures -1), replace = TRUE) 
     
     c(1, temp)
 }
