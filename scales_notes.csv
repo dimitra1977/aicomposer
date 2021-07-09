@@ -1,0 +1,8 @@
+Number,C Maj,A min,C# Maj,A# min,D Maj,B min,E Flat Maj,C min,E Maj,C# min,F Maj,D min,F# Maj,D# min,G Maj,E min,Ap Maj,F min,A Maj,F# min,Bp Maj,G min
+1,C,A,C#,A#,D,B,Ep,C,E,C#,F,D,F#,D#,G,E,Ap,F,A,F#,Bp,G
+2,D,B,D#,C,E,C#,F,D,F#,D#,G,E,G#,F,A,F#,Bp,G,B,G#,C,A
+3,E,C,F,C#,F#,D,G,Ep,G#,E,A,F,A#,F#,B,G,C,Ap,C#,A,D,Bp
+4,F,D,F#,D#,G,E,Ap,F,A,F#,Bp,G,B,G#,C,A,Dp,Bp,D,B,Ep,C
+5,G,E,G#,F,A,F#,Bp,G,B,G#,C,A,C#,A#,D,B,Ep,C,E,C#,F,D
+6,A,F,A#,F#,B,G,C,Ap,C#,A,D,Bp,D#,B,E,C,F,Dp,F#,D,G,Ep
+7,B,G,C,G#,C#,A,D,Bp,D#,B,E,C,F,C#,F#,D,G,Ep,G#,E,A,F
