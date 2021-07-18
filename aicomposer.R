@@ -6,6 +6,8 @@
 ## 06/29/2021    Dipankar Mitra        Initial version created.
 ## 07/07/2021    Dipankar Mitra        Added functionality for Maj scales.
 ## 07/09/2021    Dipanakr Mitra        Added functionality for min scales.
+## 07/18/2021    Dipankar Mitra        Fixed bug causing root chord duplication.
+##                                  
 ################################################################################
 
 
@@ -37,11 +39,11 @@ generate_chords <- function(num_measures)
     {
         num_measures <- 4
     }
-    ## Sample randomly from 1st to 7th chords
+    ## Sample randomly from 2nd to 7th chords
     #set.seed(8)
-    temp <- sample(1:7, size = (num_measures -1), replace = TRUE) 
+    temp <- sample(2:7, size = (num_measures -1), replace = TRUE)
     
-    c(1, temp)
+    temp
 }
 
 translate_chords <- function(chord_numbers, scale, chord_table, transpose)
